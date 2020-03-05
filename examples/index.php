@@ -26,7 +26,7 @@ use LinkedIn\Scope;
 // read this document to learn how to create that file
 // https://github.com/zoonman/linkedin-api-php-client/blob/master/examples/README.md
 //
-$dotenv = new Dotenv\Dotenv(dirname(__DIR__));
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 // we need a session to keep intermediate results

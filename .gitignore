@@ -21,4 +21,5 @@ crashlytics-build.properties
 fabric.properties
 composer.phar
 /vendor/
-.env
+.idea/
+composer.lock

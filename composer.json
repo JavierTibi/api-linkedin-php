@@ -13,7 +13,8 @@
     "require": {
         "php": ">=5.6",
         "ext-curl": "*",
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^6.3",
+        "vlucas/phpdotenv": "^4.1"
     },
     "license": "MIT",
     "authors": [
@@ -45,7 +46,6 @@
         "psr-4": {"LinkedIn\\": "src/"}
     },
     "require-dev": {
-        "vlucas/phpdotenv": "~2.0",
         "phpunit/phpunit": "~4.0",
         "phpmd/phpmd": "@stable",
         "squizlabs/php_codesniffer": "@stable"
